@@ -1,0 +1,23 @@
+from setuptools import setup
+
+setup(name='sebnem',
+      version='0.1.2',
+      description='import star',
+      long_description='Making star imports possible. Or not.',
+      author='fikret sahin',
+      author_email='sebnem.au.sahin@gmail.com',
+      license='Public Domain',
+      keywords='star import',
+      platforms=['any'],
+      packages=['star'],
+      classifiers=[
+          'Development Status :: Alpha',
+          'Intended Audience :: Developers',
+          'Natural Language :: English',
+          'Operating System :: OS Independent',
+          'Programming Language :: Python :: 2',
+          'Programming Language :: Python :: 3',
+          'Topic :: Software Development',
+          'Topic :: Software Development :: Quality Assurance',
+          ],
+    )
